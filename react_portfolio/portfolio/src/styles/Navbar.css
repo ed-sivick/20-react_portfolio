@@ -1,0 +1,19 @@
+
+.navbar {
+width: 100%;
+}
+/* navbar style (Edward Sivick) */
+.navbar-light .navbar-brand {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: black;
+  background-color: #007bff;
+}
+/* navbar style (About/Contact Me, My Portfolio) */
+.navbar-light .navbar-nav .nav-link{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}

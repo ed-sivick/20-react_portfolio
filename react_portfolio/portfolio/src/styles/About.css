@@ -1,0 +1,22 @@
+/* h1 text style in head_info class */
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+/* top horizontal ruler (hr) style */
+hr {
+    height:5px;
+    background-color: #007bff;
+}
+/* p text style inside about class */
+.about {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;   
+}
+/* right margin of esivick image */
+.img-right {
+    margin-right: 1rem;
+    margin-bottom: 0.25rem;
+}

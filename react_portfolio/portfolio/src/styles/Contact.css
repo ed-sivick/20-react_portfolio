@@ -1,0 +1,10 @@
+/* Styling for contact info div */
+.contactInfo {
+    font-size: 1rem;
+    font-weight: bold;
+}
+/* Styling for contact text */
+.contactText {
+    text-decoration: underline;
+    margin-bottom: 0%;
+}
