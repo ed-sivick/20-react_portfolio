@@ -5,10 +5,9 @@ Create an updated portfolio using React, featuring 6 total projects.
 ____
 ## Table of Contents
 * [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
 * [Contributing](#contributing)
 * [Questions](#questions)
+* [License](#license)
 * [Application_Links_and_Images](#application_links_and_images)
 ____
 ## Installation 
