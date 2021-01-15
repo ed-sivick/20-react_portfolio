@@ -13,7 +13,7 @@ ____
 ## Installation 
 (1) Go to the `src` folder in VS Code, right-click, select **Open in Integrated Terminal** and type: **npm i** (install) to install all required dependencies for the app, creating the **node modules** folder and **package-lock.json** file   
 (2) Type **npm start** to invoke the app     
-(3) The App will automatically open a webpage on **localhost:3000** displaying the **Avengers Employee Directory**
+(3) The App will automatically open a webpage on **localhost:3000** displaying the **About Me** page of the portfolio   
 _____
 ## Contributing
 ed-sivick, W3Schools, Stack Overflow, BCS Unit 20 class documentation
