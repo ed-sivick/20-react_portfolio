@@ -1,15 +1,19 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
+import { Col, Row, Container } from "../components/Grid";
 import esivick from "../images/esivick.png";
 import "../styles/About.css";
 
 function About() {
   return (
-    <div>
-      <h1>About Me</h1>
-                    <hr></hr>
-        <img src={esivick} alt="picture of Ed Sivick"
-          className="img-thumbnail img-right float-left img-ctr"/>
+    <Container fluid>
+      <Row>
+        <Col size="md-3"></Col>
+        <Col size="md-6">
+
+          <h1>About Me</h1>
+          <hr></hr>
+          <img src={esivick} alt="picture of Ed Sivick"
+            className="img-thumbnail img-right float-left img-ctr" />
           <p className="about">
             Ed Sivick is a Mechanical Engineer who is improving his skill set through The
             George Washington University to become a Full Stack Web Developer. As an accomplished
@@ -46,8 +50,29 @@ function About() {
             by applying the same focus and attention to detail from his mechanical design background
             as a full stack web developer.
                             </p>
-                            
-      </div>
+
+          <Col size="md-3"></Col>
+        </Col>
+      </Row>
+      <Row>
+        <Col size="md-3"></Col>
+        <Col size="md-6">
+
+          <div className="contactInfo about">
+
+            <p className="contactText">Contact Information:</p>
+            <p className="about">Email: <a href="mailto:ed@sivick.net">ed@sivick.net</a><br></br>
+      LinkedIn: <a href="https://www.linkedin.com/in/ed-sivick-7b570b68/">
+                Sivick LinkedIn</a><br></br>
+          GitHub Profile: <a href="https://github.com/ed-sivick">Sivick GitHub</a><br></br>
+          Resume: <a href="https://ed-sivick.github.io/16-updated_portfolio/assets/esivick_resume.pdf">Sivick Resume</a>
+            </p><br></br><br></br>
+
+          </div>
+          <Col size="md-3"></Col>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

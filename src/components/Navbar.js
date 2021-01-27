@@ -1,44 +1,37 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 
 function Navbar() {
+
+  const location = useLocation();
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-primary">
+    <ul className="nav nav-tabs">
       <a className="navbar-brand mb-1 h1" href="#">
-        <span className="navbar-brand mb-1 h1">Edward Sivick</span>
+        <span className="nav-name"> Edward Sivick</span>
       </a>
-
-      <button
-        className="navbar-toggler"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon" />
-      </button>
-
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto">
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              About Me
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="https://ed-sivick.github.io/16-updated_portfolio/webDev.html">
-              Web Developer
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="https://ed-sivick.github.io/16-updated_portfolio/mechEng.html">
-              Mechanical Engineer
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <li className="nav-item">
+        <Link to="/" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+          About Me
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/webdev"
+          className={location.pathname === "/webdev" ? "nav-link active" : "nav-link"}
+        >
+          Web Developer
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/mecheng"
+          className={location.pathname === "/mecheng" ? "nav-link active" : "nav-link"}
+        >
+          Mechanical Engineer
+        </Link>
+      </li>
+    </ul>
   );
 }
 
