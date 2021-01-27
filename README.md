@@ -9,7 +9,7 @@ ____
 * [License](#license)
 * [Contributing](#contributing)
 * [Questions](#questions)
-* [Application_Link](#application_link)
+* [Application_Links_and_Images](#application_links_and_images)
 ____
 ## Installation 
 (1) Go to the `src` folder or Explorer area in VS Code, right-click, select **Open in Integrated Terminal** and type: **npm i** (install) to install all required dependencies for the app, creating the **node modules** folder and **package-lock.json** file   
@@ -41,6 +41,22 @@ please contact the following person at their GitHub profile or email address bel
 * [GitHub Profile](https://github.com/ed-sivick)
 * ed@sivick.net
 _____
-## Application_Link 
+## Application_Links_and_Images  
 **Links:**  
 Heroku link: (https://esivick-react-portfolio.herokuapp.com/)
+
+**Application Image Examples:** 
+<p><strong>Image of About Me page</strong></p>
+<p align="left">
+  <img src="assets/images/about_me1.png" width="800" title="Image of About Me page" alt="Image of About Me page">
+  </p><br>
+  
+<p><strong>Image of Web Developer Projects</strong></p>
+<p align="left">
+  <img src="assets/images/web_dev1.png" width="800" title="Image of Web Developer Projects" alt="Image of Web Developer Projects">
+  </p><br>
+
+  <p><strong>Image of Mechanical Engineer Tasks/Projects at Specific Companies</strong></p>
+<p align="left">
+  <img src="assets/images/mech_eng1.png" width="800" title="Image of Mechanical Engineer Tasks/Projects at Specific Companies" alt="Image of Mechanical Engineer Tasks/Projects at Specific Companies">
+  </p><br>
