@@ -1,15 +1,16 @@
 # 20-React Portfolio
 ____
-## Objective
-Create an updated portfolio using React, featuring 6 total projects.
-____
 ## Table of Contents
+* [Objective](#objective)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
 * [Questions](#questions)
 * [Application_Links_and_Images](#application_links_and_images)
+____
+## Objective
+Create an updated portfolio using React, featuring 6 total projects.
 ____
 ## Installation 
 (1) Go to the `src` folder or Explorer area in VS Code, right-click, select **Open in Integrated Terminal** and type: **npm i** (install) to install all required dependencies for the app, creating the **node modules** folder and **package-lock.json** file   
